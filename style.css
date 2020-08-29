@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(62, 20, 20, 0.5), rgba(62, 20, 20, 0.5)), url(Form\ Background\ Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+
+#container {
+    background-color: #fff;
+    width: 1000px;
+    margin: 43px auto;
+    overflow: hidden;
+}
+
+#container > div {
+    width: 45%;
+    height: 600px;
+    float: left;
+    padding: 20px;
+}
+
+.side_bar {
+    background-image: url(Blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.side_bar .title {
+    margin-top: 350px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.button {
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+}
+
+.button .btn {
+    width: 100%;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.button_ {
+    float: right;
+    width: 105px;
+}
+
+.button_>.btn {
+    padding: 9px;
+    font-size: 10px;
+    margin: 5px -2px;
+    border: 1px solid #eee;
+    background: #fff;
+}
+
+.button_>.btn:last-child {
+    background-color: #0000ff;
+    color: #fff;
+    border: 1px solid #0000ff;
+}
+
+.btn:focus,
+.btn:hover {
+    outline: none;
+    cursor: pointer;
+}
+
+.form_bar .form {
+    width: 275px;
+    margin: 150px auto 0px;
+}
+
+.form .title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form .input {
+    margin-top: 35px;
+}
+
+.form .box {
+    margin-top: 10px;
+}
+
+.form input {
+    width: 100%;
+    margin: 5px 0px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form .button>.btn {
+    background-color: #0000ff;
+    border: none;
+    font-weight: 500;
+}
+
+.form .links {
+    margin: 20px 0px;
+    width: 300px;
+}
+.form .links>a {
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+}
+
+.form .links>a:last-child {
+    float: right;
+    text-align: right;
+}
